@@ -35,8 +35,9 @@ main {
 .eqiul {
     margin-top: 7%;
     transition: .3s;
-    font-size: 100%;
+    font-size: 200%;
     padding: 0 14px 0 0;
+    width: 59%;
 
 }
 
@@ -50,7 +51,7 @@ a {
 }
 
 .our {
-    font-size: 60%;
+    font-size: 150%;
     padding: 0 0px 0 0;
     color: hsl(215, 51%, 70%);
 }
@@ -116,7 +117,12 @@ hr {
 }
 
 .cre-span {
+
     color: hsl(215, 51%, 70%);
+}
+
+.jules {
+    transition: .2s;
 }
 
 .jules:hover {
@@ -125,13 +131,14 @@ hr {
 
 @media only screen and (max-width: 393px) {
     main {
-        width: 60%;
+        width: 70%;
     }
 
     .flex {
         font-size: 80%;
-        
+
     }
+
     .bottom {
         font-size: 80%;
     }

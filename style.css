@@ -1,0 +1,138 @@
+@font-face {
+    font-family: outfit;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: outfit;
+    color: white;
+    background-color:
+        hsl(217, 54%, 11%);
+}
+
+main {
+    border-radius: 40px;
+    background-color:
+        hsl(216, 50%, 16%);
+    padding: 2rem;
+    width: 20%;
+    /* height: 80%; */
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.eqiul {
+    margin-top: 7%;
+    transition: .3s;
+    font-size: 100%;
+    padding: 0 14px 0 0;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.eqiul:hover {
+    color: hsl(215, 51%, 70%);
+}
+
+.our {
+    font-size: 60%;
+    padding: 0 0px 0 0;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    margin: 1rem 0;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.flex {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex * {
+    display: inline;
+    font-size: 110%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.arrow,
+.clock {
+    width: 30%;
+    height: 30%;
+    margin-right: 10%;
+}
+
+.f0 {
+    color: hsl(178, 100%, 50%);
+}
+
+.f3 {
+    color: hsl(215, 51%, 70%);
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    font-size: 120%;
+}
+
+.pf {
+    width: 10%;
+    height: 10%;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 7%;
+}
+
+.creation {
+    display: inline;
+}
+
+.cre-span {
+    color: hsl(215, 51%, 70%);
+}
+
+.jules:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+@media only screen and (max-width: 393px) {
+    main {
+        width: 60%;
+    }
+
+    .flex {
+        font-size: 80%;
+        
+    }
+    .bottom {
+        font-size: 80%;
+    }
+}

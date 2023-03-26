@@ -25,12 +25,60 @@ main {
     padding: 2rem;
     width: 20%;
     /* height: 80%; */
+    
 }
 
 .main-img {
     width: 100%;
     border-radius: 20px;
+    transition: .3s;
+    display: inline;
+    z-index: 1;
+    transition: .5s;
 }
+
+.main-img-div {
+    display: flex;
+    flex-direction: column;
+    transition: .3s;
+}
+
+.eye {
+    opacity: 0;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    bottom: 40vw;
+    align-self: center;
+    z-index: 2;
+    grid-template-rows: 0;
+    transition: .3s;
+}
+
+.main-img:hover {
+    filter:invert(20%);
+}
+
+.main-img:hover ~ .eye {
+    opacity: 1;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    bottom: 40vw;
+    align-self: center;
+    z-index: 2;
+    grid-template-rows: 0;
+}
+
+* {
+    /* transition: .3s; */
+}
+
+/* .main-img:hover ~ * {
+    margin-top: -2.375rem;
+} */
 
 .eqiul {
     margin-top: 7%;
@@ -52,6 +100,7 @@ a {
 
 .our {
     font-size: 150%;
+    font-weight: 300;
     padding: 0 0px 0 0;
     color: hsl(215, 51%, 70%);
 }
